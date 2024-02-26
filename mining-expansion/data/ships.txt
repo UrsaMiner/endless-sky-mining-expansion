@@ -166,10 +166,10 @@ ship "L.D.H."
 		"weapon capacity" 200
 		"engine capacity" 180
 		weapon
-			"blast radius" 136
-			"shield damage" 1360
-			"hull damage" 680
-			"hit force" 2040
+			"blast radius" 480
+			"shield damage" 4800
+			"hull damage" 2400
+			"hit force" 7200
 	outfits
 		"Anti-Missile Turret" 3
 		"Proton Turret" 4
