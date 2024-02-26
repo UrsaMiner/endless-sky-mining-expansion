@@ -152,7 +152,7 @@ ship "L.D.H."
 	thumbnail "thumbnail/ldh"
 	attributes
 		category "Utility"
-		"cost" 12000000
+		"cost" 10000000
 		"shields" 12000
 		"hull" 32000
 		"required crew" 20
