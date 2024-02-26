@@ -161,8 +161,8 @@ ship "L.D.H."
 		"drag" 2.5
 		"heat dissipation" .3
 		"fuel capacity" 600
-		"cargo space" 500
-		"outfit space" 800
+		"cargo space" 300
+		"outfit space" 635
 		"weapon capacity" 200
 		"engine capacity" 180
 		weapon
@@ -175,7 +175,7 @@ ship "L.D.H."
 		"Proton Turret" 4
 
 		"Armageddon Core"
-		"Liquid Helium Cooling System"
+		"Liquid Helium Cooler"
 		"LP579a Battery Pack"
 		"D67-TM Shield Generator"
 		
