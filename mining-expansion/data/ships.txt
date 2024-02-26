@@ -72,7 +72,7 @@ ship "S.D.H."
 		"required crew" 7
 		"bunks" 15
 		"mass" 420
-		"drag" 1.
+		"drag" 4.5
 		"heat dissipation" .5
 		"fuel capacity" 500
 		"cargo space" 200
@@ -153,12 +153,12 @@ ship "L.D.H."
 	attributes
 		category "Utility"
 		"cost" 10000000
-		"shields" 12000
-		"hull" 32000
+		"shields" 10000
+		"hull" 10000
 		"required crew" 20
 		"bunks" 40
 		"mass" 1700
-		"drag" 2.5
+		"drag" 12.5
 		"heat dissipation" .3
 		"fuel capacity" 600
 		"cargo space" 300
@@ -166,10 +166,10 @@ ship "L.D.H."
 		"weapon capacity" 200
 		"engine capacity" 180
 		weapon
-			"blast radius" 480
-			"shield damage" 4800
-			"hull damage" 2400
-			"hit force" 7200
+			"blast radius" 200
+			"shield damage" 2000
+			"hull damage" 1000
+			"hit force" 3000
 	outfits
 		"Anti-Missile Turret" 3
 		"Proton Turret" 4
