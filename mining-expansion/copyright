@@ -1,0 +1,8 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: endless-sky
+Upstream-Contact: Mel di Giovanni <meldigiovanni06@gmail.com>
+Source: https://github.com/endless-sky/endless-sky
+
+Files: *
+Copyright: Copyright Mel di Giovanni <meldigiovanni06@gmail.com>
+License: GPL-3+

@@ -1,0 +1,191 @@
+ship "Prospector"
+	sprite "ship/prospector"
+	thumbnail "thumbnail/prospector"
+	attributes
+		category "Utility"
+		"cost" 3000000
+		"shields" 2400
+		"hull" 3600
+		"required crew" 5
+		"bunks" 9
+		"mass" 360
+		"drag" 5.3
+		"heat dissipation" .65
+		"fuel capacity" 600
+		"cargo space" 120
+		"outfit space" 280
+		"weapon capacity" 75
+		"engine capacity" 90
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Mining Laser" 2
+		"Tractor Beam" 2
+		"Asteroid Scanner"
+		"nGVF-CC Fuel Cell"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+	turret -13.5 33 "Tractor Beam"
+	turret 15 33 "Tractor Beam"
+	engine -17 53.5
+	engine 17.5 53.5
+	gun -20.5 -40.5 "Mining Laser"
+	gun 22.5 -39 "Mining Laser"
+	bay "Drone" -20 3.5
+		"under"
+		"launch effect" "human external"
+	bay "Drone" -19.5 26.5
+		"under"
+		"angle" 180
+		"launch effect" "human external"
+	bay "Drone" 20.5 3.5
+		"under"
+		"launch effect" "human external"
+	bay "Drone" 20 26.5
+		"under"
+		"angle" 180
+		"launch effect" "human external"
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 20
+	explode "small explosion" 15
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "Due to the recent Syndicate efforts to fully harvest the Core's mineral plenty, the Prospector was born, taking the Sunder's design and widening it, making room for more Drone bays. Some pilots would rather stick with the Sunder as the Prospector is far less maneuverable."
+
+
+
+ship "S.D.H."
+	sprite "ship/sdh"
+	thumbnail "thumbnail/sdh"
+	attributes
+		category "Utility"
+		"cost" 4500000
+		"shields" 5600
+		"hull" 8000
+		"required crew" 7
+		"bunks" 15
+		"mass" 420
+		"drag" 1.
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 200
+		"outfit space" 350
+		"weapon capacity" 85
+		"engine capacity" 100
+		weapon
+			"blast radius" 136
+			"shield damage" 1360
+			"hull damage" 680
+			"hit force" 2040
+	outfits
+		"Anti-Missile Turret" 2
+		"Quad Blaster Turret" 2
+
+		"Fission Reactor"
+		"Water Coolant System"
+		"LP144a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+
+	turret -28.5 -25.5
+	turret 28 -25.5
+	turret -28.5 29.5
+	turret 28.5 29.5
+	engine -13.5 55.5
+	engine 13.5 56
+	bay "Drone" -29.5 21.5
+		"under"
+		"angle" 90
+		"launch effect" "human external"
+	bay "Drone" 29.5 2.5
+		"under"
+		"angle" 90
+		"launch effect" "human external"
+	bay "Drone" -30 -16
+		"under"
+		"angle" 90
+		"launch effect" "human external"
+	bay "Drone" 32.5 -16.5
+		"under"
+		"angle" 270
+		"launch effect" "human external"
+	bay "Drone" 32 3
+		"under"
+		"angle" 270
+		"launch effect" "human external"
+	bay "Drone" 30.5 20.5
+		"under"
+		"angle" 270
+		"launch effect" "human external"
+	bay "Drone" -18 -28.5
+		"under"
+		"angle"
+		"launch effect" "human external"
+	bay "Drone" 20 -27
+		"under"
+		"angle"
+		"launch effect" "human external"
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Small Drone Hub is less of a ship and more of a 'mobile' platform, fitted with 8 drone bays and 4 turret mounts. It's lack of maneuverability is somewhat countered by the Drones it can hold."
+
+
+
+ship "Collector Drone"
+	sprite "ship/collector drone"
+	thumbnail "thumbnail/collector drone"
+	attributes
+		category "Drone"
+		"cost" 62000
+		"hull" 300
+		"automaton" 1
+		"mass" 12
+		"drag" .6
+		"heat dissipation" .7
+		"cargo space" 10
+		"outfit space" 72
+		"weapon capacity" 22
+		"engine capacity" 28
+		weapon
+			"blast radius"
+			"shield damage"
+			"hull damage"
+			"hit force"
+	outfits
+		"Tractor Beam"
+		
+		"nGVF-AA Fuel Cell"
+		"Supercapacitor"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+	
+	turret 0.5 5
+	engine 0 11.5
+	explode "tiny explosion" 10
+	description "The Collector Drone is essentially a small cargo hold with a Tractor beam on top and an engine behind. They are commonly used by heavier mining vessels to keep up with fast moving Flotsam."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+
+
+
+shipyard "Syndicate Basics"
+	"Prospector"
+	"Collector Drone"
+shipyard "Syndicate Advanced"
+	"S.D.H."

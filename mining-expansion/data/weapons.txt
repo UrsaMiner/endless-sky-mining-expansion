@@ -1,0 +1,91 @@
+outfit "Heavy Mining Laser"
+	category "Guns"
+	cost 49000
+	thumbnail "outfit/heavy mining laser"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sound "mining laser"
+		"submunition" "Heavy Mining Laser Submunition"
+		"hit effect" "beam laser impact"
+		"inaccuracy" .25
+		"firing energy" 1.5
+		"firing heat" 3.2
+		"velocity override" 300
+	description "Due to many Pilots of mining ships' complaints with the short range and general feebleness of the standard Mining Laser, a solution was made; taking the prospecting power of the Mining Laser and combining it with the higher power of the Heavy Laser, Beam engineering has developed the Heavy Mining Laser; a more powerful, albeit bulkier version of the Mining Laser meant for more heavy duty Mining Ships."
+	description "	The modern Mining Laser is a derivative of the Beam Laser engineered to optimize mineral yield and extraction rates at the expense of range and shield damage."
+
+outfit "Heavy Mining Laser Turret"
+	category "Turrets"
+	cost 60000
+	thumbnail "outfit/heavy mining laser turret"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy laser turret"
+		"hardpoint offset" 8.
+		sound "mining laser"
+		"submunition" "Heavy Mining Laser Submunition"
+			"offset" 2 0
+		"submunition" "Heavy Mining Laser Submunition"
+			"offset" -2 0
+		"hit effect" "heavy laser impact"
+		"inaccuracy" .25
+		"turret turn" 2.2
+		"firing energy" 3
+		"firing heat" 6.4
+		"velocity override" 300
+	description "For larger Mining Vessels, the Heavy Mining Laser Turret is invaluable for harvesting asteroids, and with the added range, it becomes more convenient than ever to mine Asteroids."
+	description "	The modern Mining Laser is a derivative of the Beam Laser engineered to optimize mineral yield and extraction rates at the expense of range and shield damage."
+
+outfit "Heavy Mining Laser Submunition"
+	weapon
+		sprite "projectile/laser"
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"shield damage" 1.2
+		"hull damage" 2.6
+		"minable damage" 3.1
+		"prospecting" 2
+		"hit effect" "heavy laser impact"
+
+
+outfit "Heavy Tractor Beam"
+	category "Turrets"
+	cost 100000
+	thumbnail "outfit/heavy tractor beam"
+	"mass" 32
+	"outfit space" -32
+	"weapon capacity" -32
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy tractor beam"
+		"hardpoint offset" 4.
+		sound "tractor beam"
+		"hit effect" "heavy tractor beam"
+		"tractor beam" 12
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3,5
+		"firing heat" 1.2
+	description "A more heavy duty version of the Tractor Beam, designed for use by slower, bulkier ships. With a much longer range and more repulsor power, this meets the requirements of most pilots."
+	description "	Tractor Beam technology is used to collect loose flotsam floating in space."
+
+effect "heavy tractor beam"
+	sprite "effect/heavy tractor beam"
+		"frame rate" 3.5
+	"lifetime" 1
+	"velocity scale" 1
+
+
+outfitter "Syndicate Advanced"
+	"Heavy Mining Laser"
+	"Heavy Mining Laser Turret"
+	"Heavy Tractor Beam"
