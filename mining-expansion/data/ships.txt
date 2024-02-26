@@ -147,6 +147,135 @@ ship "S.D.H."
 
 
 
+ship "L.D.H."
+	sprite "ship/ldh"
+	thumbnail "thumbnail/ldh"
+	attributes
+		category "Utility"
+		"cost" 12000000
+		"shields" 12000
+		"hull" 32000
+		"required crew" 20
+		"bunks" 40
+		"mass" 1700
+		"drag" 2.5
+		"heat dissipation" .3
+		"fuel capacity" 600
+		"cargo space" 500
+		"outfit space" 800
+		"weapon capacity" 200
+		"engine capacity" 180
+		weapon
+			"blast radius" 136
+			"shield damage" 1360
+			"hull damage" 680
+			"hit force" 2040
+	outfits
+		"Anti-Missile Turret" 3
+		"Proton Turret" 4
+
+		"Armageddon Core"
+		"Liquid Helium Cooling System"
+		"LP579a Battery Pack"
+		"D67-TM Shield Generator"
+		
+		"X4700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Scram Drive"
+
+	turret -56.5 -56.5 "Proton Turret"
+	turret -57 -0.5 "Anti-Missile Turret"
+	turret -53.5 56 "Proton Turret"
+	turret 57 -57 "Proton Turret"
+	turret 56.5 -0.5 "Anti-Missile Turret"
+	turret 56 55 "Proton Turret"
+	turret 0.5 -0.5 "Anti-Missile Turret"
+	engine -45.5 84.5
+	engine -18.5 90.5
+	engine 20.5 90.5
+	engine 47.5 83
+	bay "Drone" -54 50.5
+		"under"
+		"angle" 90
+		"launch effect" "human external"
+	bay "Drone" -56.5 32
+		"under"
+		"angle" 90
+		"launch effect" "human external"
+	bay "Drone" -58.5 14.5
+		"under"
+		"angle" 90
+		"launch effect" "human external"
+	bay "Drone" -59 -16
+		"under"
+		"angle" 90
+		"launch effect" "human external"
+	bay "Drone" -59.5 -33.5
+		"under"
+		"angle" 90
+		"launch effect" "human external"
+	bay "Drone" -60.5 -52.5
+		"under"
+		"angle" 90
+		"launch effect" "human external"
+	bay "Drone" 55 -34.5
+		"under"
+		"angle" 270
+		"launch effect" "human external"
+	bay "Drone" 56.5 -15
+		"under"
+		"angle" 270
+		"launch effect" "human external"
+	bay "Drone" 56.5 -15
+		"under"
+		"angle" 270
+		"launch effect" "human external"
+	bay "Drone" 57 12.5
+		"under"
+		"angle" 270
+		"launch effect" "human external"
+	bay "Drone" 56.5 33.5
+		"under"
+		"angle" 270
+		"launch effect" "human external"
+	bay "Drone" 55.5 48
+		"under"
+		"angle" 270
+		"launch effect" "human external"
+	bay "Drone" -50.5 -57.5
+		"under"
+		"angle"
+		"launch effect" "human external"
+	bay "Drone" -33.5 -57.5
+		"under"
+		"angle"
+		"launch effect" "human external"
+	bay "Drone" -14 -59.5
+		"under"
+		"angle"
+		"launch effect" "human external"
+	bay "Drone" 33.5 -61.5
+		"under"
+		"angle"
+		"launch effect" "human external"
+	bay "Drone" 52 -61.5
+		"under"
+		"angle"
+		"launch effect" "human external"
+	bay "Drone" 57.5 -52.5
+		"under"
+		"angle"
+		"launch effect" "human external"
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Large Drone Hub is unparalleled when it comes to storage of Drones, with 18 Drone bays, this Ship can essentially carry a substantial fleet, however it is extremely slow, making putting any 	guns on it useless. It is for this reason that the Large Drone Hub is also equipped with 7 Turret Mounts."
+
 ship "Collector Drone"
 	sprite "ship/collector drone"
 	thumbnail "thumbnail/collector drone"
