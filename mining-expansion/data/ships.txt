@@ -276,6 +276,8 @@ ship "L.D.H."
 	"final explode" "final explosion large"
 	description "The Large Drone Hub is unparalleled when it comes to storage of Drones, with 18 Drone bays, this Ship can essentially carry a substantial fleet, however it is extremely slow, making putting any 	guns on it useless. It is for this reason that the Large Drone Hub is also equipped with 7 Turret Mounts."
 
+
+
 ship "Collector Drone"
 	sprite "ship/collector drone"
 	thumbnail "thumbnail/collector drone"
